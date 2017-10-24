@@ -1,0 +1,17 @@
+<html>
+        <head>
+        <title>linreg</title>
+        </head>
+        <form action="{{url_for('linreg')}}" method = "post">
+                <label>Enter X Values separated by commas</label>
+                <br>
+                <input type="text"name= "x_vals" placeholder="X values">
+                <br>
+                <label>Enter Y Values separated by commas</label>
+                <br>
+                <input type="text" name= "y_vals" placeholder="Y values">
+                <br>
+                <input type="submit" value="Get Linear Regression">
+                <br>
+        </form>
+</html>
